@@ -44,7 +44,7 @@ public class WeitaoLeftFragment extends Fragment {
 
         // RecyclerView
         initItemNameList();
-        RecyclerView recyclerView = view.findViewById(R.id.recycler_view_home);
+        RecyclerView recyclerView = view.findViewById(R.id.weitao_left_recycler_view);
         LinearLayoutManager layoutManager = new LinearLayoutManager(view);
         recyclerView.setLayoutManager(layoutManager);
         WeitaoLeftAdapter adapter = new WeitaoLeftAdapter(itemNameList);
